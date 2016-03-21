@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{margin: 0px;padding: 0px;}
+	.box1{
+		float: left;
+	}
+	</style>
+
+</head>
+<body>
+	<div class="box"> 
+		<div class="box1">
+			<img src="images/1.jpg" alt="" widh="100px" height="100px">
+		</div>
+		<div class="box1">
+			<img src="images/2.jpg" alt="" widh="100px" height="100px">
+		</div>
+		<div class="box1">
+			<img src="images/3.jpg" alt="" widh="100px" height="100px">
+		</div>
+	</div>
+	
+</body>
+
+
+
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		$(".box div").mouseenter(function(){
+			$("body").append('<div class="box4"><img src="" alt=""></div>');
+			var src=$(this).find("img").attr("src");
+			$(".box4 img").attr("src",src);
+		})
+		$(".box div").mouseleave(function(){
+			$(".box4").remove();
+		})
+		$(".box div").mousemove(function(event){
+			var x=event.pageX;
+			var y=event.pageY;
+			$(".box4").css({
+				"position":"absolute",
+				"top": y+20,
+				"left": x+20,
+			})
+		})
+	</script>
+</html>
+

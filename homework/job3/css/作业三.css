@@ -1,0 +1,268 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family:"helvetica";
+	src:url('../font/helvetica.otf');
+	font-weight:bolder;
+}
+@font-face{
+	font-family:"Chunkfive";
+	src:url('../font/Chunkfive.otf');
+	font-weight:bolder;
+}
+@font-face{
+	font-family:"DroidSerif-Italic";
+	src:url('../font/DroidSerif-Italic.ttf');
+	font-weight:bolder;
+}
+#header{
+	height: 720px;
+	background-image: url(../images/bg1.gif);
+}
+.logonav{
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	/*background-color: #f00;*/
+}
+.logo{
+	float: left;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 80px;
+	/*text-align: center;*/
+	padding-left: 32px;
+}
+.nav li:hover{
+	border-bottom: 4px solid #2e2d2d;
+	font-weight: bolder;
+}
+#banner{
+	width: 1078px;
+	height: 640px;
+	margin: 0 auto;
+}
+.banner_top{
+	width: 1078px;
+	height: 530px;
+}
+.banner_left{
+	width: 65px;
+	height: 530px;
+	float: left;
+	clear: both;
+	margin-top: -3px;
+}
+.banner_left img{
+	padding-top: 210px;
+}
+.banner_container{
+	width: 531px;
+	height: 530px;
+	float: left;
+	margin-top: -3px;
+}
+.banner_container_top{
+	width: 531px;
+	height: 280px;
+}
+.par1{
+	font-family:"Chunkfive","Regular";
+	font-size: 48px;
+	padding-top: 60px;
+	padding-left: 11px;
+}
+.par2{
+	font-family: "Times New Roman","Regular";
+	font-size: 18px;
+	padding-left: 11px;
+	padding-top: 30px;
+}
+.banner_container_bottom{
+	width: 531px;
+	height: 250px;
+}
+.image{
+	margin-top: 67px;
+	margin-left: 11px;
+}
+.image1{
+		padding-right: 22px;
+}
+.banner_ipad{
+	width: 412px;
+	height: 530px;
+	float: left;
+	margin-top: -3px;
+}
+.banner_ipad img{
+	padding-top: 28px;
+	padding-left: 20px;
+}
+.banner_right{
+	width: 70px;
+	height: 530px;
+	float: left;
+	margin-top: -3px;
+}
+.banner_right img{
+	padding-top: 210px;
+	padding-left: 30px;
+}
+.banner_bottom{
+	width: 1078px;
+	height: 90px;
+}
+.banner_bottom li{
+	list-style: none;
+	float: left;
+	margin-top: 40px;
+	padding-right: 11px;
+}
+.banner_bottom ul{
+	margin:0 auto;
+	display: table;
+}
+.banner_bottom li:hover{
+	background-color: #db373b;
+	border: none;
+}
+#container{
+	height: 389px;
+	background-image: url(../images/bg26.gif);
+}
+.container1{
+	width: 940px;
+	height: 389px;
+	margin: 0 auto;
+}
+.container_left{
+	width: 570px;
+	height: 389px;
+	float: left;
+}
+.p1{
+	font-family:"Chunkfive","Regular";
+	font-size: 24px;
+	padding-top: 46px;
+	padding-left: 11px;
+	color: #ececec;
+}
+.p2{
+	font-family:"DroidSerif-Italic";
+	font-size: 16px;
+	color: #ececec;
+	padding-top: 37px;
+	padding-left: 11px;
+}
+.p3{
+	font-family:"Times New Roman";
+	font-size: 18px;
+	color: #ececec;
+	padding-top: 31px;
+	padding-left: 11px;
+}
+.container_right{
+	width: 370px;
+	height: 389px;
+	float: left;
+}
+.pp{
+	font-family:"Chunkfive","Regular";
+	font-size: 24px;
+	padding-top: 46px;
+	padding-left: 39px;
+	color: #ececec;
+}
+.list1{
+	width: 370px;
+	height: 60px;
+	margin-top: 42px;
+	margin-left: 39px;
+}
+.list1 img{
+	display: inline;
+	float: left;
+}
+.list1 li{
+	list-style: none;
+	padding-left: 70px;
+	padding-top: 7px;
+
+}
+.list2{
+	width: 370px;
+	height: 60px;
+	margin-top: 9px;
+	margin-left: 39px;
+}
+.list2 img{
+	display: inline;
+	float: left;
+}
+.list2 li{
+	list-style: none;
+	padding-left: 79px;
+	padding-top: 7px;
+}
+.list3{
+	width: 370px;
+	height: 60px;
+	margin-top: 9px;
+	margin-left: 39px;
+}
+.list3 img{
+	display: inline;
+	float: left;
+}
+.list3 li{
+	list-style: none;
+	padding-left: 79px;
+	padding-top: 7px;
+}
+.hh{
+	color:#59595a;
+	font-family:"Times New Roman";
+	font-size: 16px;
+}
+.jj{
+	color:#ececec;
+	font-family:"Times New Roman";
+	font-size: 14px;
+}
+#footer{
+	height: 90px;
+	background-image: url(../images/footer.gif);
+}
+.footer1{
+	width: 940px;
+	height: 90px;
+	margin: 0 auto;
+}
+.footer_left{
+	float: left;
+	margin-top: 37px;
+}
+.footer_left p{
+	color: #f1f1f1;
+	font-family:"Arial";
+	font-size:10px;
+}
+.footer_right li{
+	list-style:none;
+	float:right;
+	padding-top: 37px;
+	
+}
+.footer_right li a{
+	text-decoration:none;
+	font-family:"Arial";
+	font-size:14px;
+	color: #ffffff;
+}

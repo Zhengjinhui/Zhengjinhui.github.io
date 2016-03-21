@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+/*		#slide{
+			float: left;
+		}*/
+		.box1 li{
+			list-style: none;
+			display: none;
+			background-color: #f00;
+		}
+		.box2 li{
+			list-style: none;
+			display: none;
+			background-color: #f00;
+		}
+		.box2 li{
+			list-style: none;
+			display: none;
+		}
+		.box1 .123{
+			width: 80px;
+			height: 80px;
+			background-color: #00f;
+		}
+		ul{
+			height: 100px;
+			width: 100px;
+			/*background-color: #f00;*/
+			font-size: 30px;
+		}
+		.box1{
+			float: left;
+		}
+		.box2{
+			float: left;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- <input type="button" value="hello" id="slide"> -->
+	<div class="box1">
+		<ul><a href="" class="123">性格</a>
+			<li> <a href="">fdhsjk</a></li>
+			<li> <a href="">fsdajk</a></li>
+			<li> <a href="">dsajkl</a></li>
+		</ul>
+	</div>
+	<div class="box2">
+		<ul><a href="">爱好</a>
+			<li class="list">fdhsjk</li>
+			<li class="list">fsdajk</li>
+			<li class="list">dsajkl</li>
+		</ul>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$(".box1 ul").mouseenter(function(){
+		$(".box1 li").stop().slideDown(1000);
+	})
+	$(".box1 ul").stop().mouseleave(function(){
+		$(".box1 li").stop().slideUp(1000);
+	})
+	$(".box2 ul").mouseenter(function(){
+		$(".box2 li").stop().slideDown(1000);
+	})
+	$(".box2 ul").stop().mouseleave(function(){
+		$(".box2 li").stop().slideUp(1000);
+	})
+	</script>
+</body>
+</html>

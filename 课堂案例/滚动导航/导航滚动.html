@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	ul{
+		/*width: 100px;*/
+		height: 50px;	
+		overflow: hidden;
+	}
+	li{
+		width: 100px;
+		height: 100px;
+		float: left;
+		list-style: none;
+	}
+	a{
+		width: 100px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		display: block;
+		background-color: #f00;
+	}
+	span{
+		display: block;
+		width: 100px;
+		height: 50px;
+		background-color: #00f;
+		line-height: 50px;
+		text-align: center;
+
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<ul class="list">
+			<li>
+				<span>电影</span>
+				<a href="">电影</a>
+			</li>
+			<li>
+				<span>综艺</span>
+				<a href="">综艺</a>
+			</li>
+			<li>
+				<span>电视剧</span>
+				<a href="">电视剧</a>
+			</li>
+
+		</ul>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$(".list li").mouseenter(function(){
+		$(this).stop().animate({"margin-top":-50},1000)}).mouseleave(function(){
+			$(this).stop().animate({"margin-top":0},1000)
+		})
+	</script>
+</body>
+</html>

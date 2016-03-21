@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 930px;
+	height: 482px;
+	margin: 0 auto;
+}
+.top{
+	width: 930px;
+	height: 102px;
+	float: left;
+}
+.logo{
+	height: 102px;
+	width: 109px;
+	margin-top: 8px;
+	margin-left: 2px;
+	float: left;
+}
+.nav{
+	float: left;
+	width: 501px;
+	height: 102px;
+}
+.nav ul{
+	margin-top: 41px;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	padding-left: 31px;
+	background-image: url(images/jiao.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.li1{
+	width: 47px;
+	height: 40px;
+}
+.li2{
+	width: 135px;
+	height: 40px;
+}
+.li3{
+	width: 98px;
+	height: 40px;
+}
+.li4{
+	width: 96px;
+	height: 40px;
+}
+.search{
+	width: 318px;
+	height: 102px;
+	float: left;
+}
+.wenzi p{
+	color: blue;
+	float: right;
+	font-size: 11px;
+	margin-top: 7px;
+}
+.search img{
+	float: right;
+	clear: both;
+	margin-top: 15px;
+}
+.search .number{
+	float: right;
+	font-size: 10px;
+	margin-top: 13px;
+}
+.banner{ 	
+	width: 930px;
+	height: 380px;
+	background-color: #000;
+	clear: both;
+	margin-top: 17px;
+}
+#container{
+	width: 930px;
+	height: 577px;
+	/*background-color: #0f0;*/
+	margin: 0 auto;
+}
+.list1{
+	width: 930px;
+	height: 310px;
+}
+.lis1{
+	border: 1px solid #cacaca;
+	float: left;
+	width: 300px;
+	height: 282px;
+	margin-top: 23px;
+	margin-right: 12px;
+}
+.lis1 li{
+	list-style: none;
+	font-size: 10px;
+	padding-left: 10px;
+}
+.lis2{
+	border: 1px solid #cacaca;
+	float: left;
+	width: 300px;
+	height: 282px;
+	margin-top: 23px;
+	margin-right: 12px;
+}
+.lis2 li{
+	list-style: none;
+	font-size: 10px;
+	padding-left: 10px;
+}
+.lis3{
+	border: 1px solid #cacaca;
+	float: left;
+	width: 300px;
+	height: 282px;
+	margin-top: 23px;
+}
+.lis3 li{
+	list-style: none;
+	font-size: 10px;
+	padding-left: 10px;
+}
+hr{
+	width: 260px;
+	border: 1px solid #cbcbcb;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h3{
+	padding: 21px;
+}
+.search2{
+	width: 930px;
+	height: 32px;
+	margin: 0 auto;
+}
+.pic1{
+	float: left;
+	margin-top: 15px;
+	margin-left: 2px;
+}
+.pic2{
+	float: left;
+	margin-top: 13px;
+	margin-left: 5px;
+}
+.pic3{
+	float: left;
+	float: right;
+	margin-right: 8px;
+	margin-top: 13px;
+}
+.list2{
+	width: 930px;
+	height: 234px;
+	background-color: #f9f9f9;
+	clear: both;
+	margin-top: 14px;
+	border: 1px solid #cacaca; 
+}
+.list2 ol{
+	float: left;
+	padding-left: 5px;
+	margin-right: 40px;
+	margin-top: 23px;
+}
+.list2 ol li{
+	list-style: none;
+	font-size: 10px;
+	padding: 3px;
+}
+#footer {
+	width: 930px;
+	height: 180px;
+	/*background-color: #f00;*/
+	margin: 0 auto;
+	margin-top: 33px;
+	clear: both;
+}
+#footer p{
+	clear: both;
+	font-size: 10px;
+	color: blue;
+	text-align: center;
+}
